@@ -1,0 +1,6 @@
+export type PortfolioProject = { slug: string; title: string; category: string; filters: string[]; description: string; image?: string; tone: string; status: string };
+export const portfolioProjects: PortfolioProject[] = [
+ { slug: "web-container", title: "Embedded Bond Investment Platform", category: "TRIMEGAH / WEB CONTAINER", filters: ["Web", "Fullstack"], description: "A faster, rebuilt investment experience embedded in partner banking apps. Nuxt frontend, selected backend contributions, and login / OTP rate limiting.", image: "/images/web-container/overview.png", tone: "finance", status: "Staging · Release preparation" },
+ { slug: "booml", title: "Booml", category: "TRANSPORTATION / WEB & MOBILE", filters: ["Web", "Mobile", "Fullstack"], description: "Bus ticketing and operations, from requirements and UI/UX to the dashboard, mobile apps, backend, and database.", tone: "transport", status: "In testing" },
+ { slug: "bookti", title: "Bookti DTI", category: "EDUCATION / MOBILE FRONTEND", filters: ["Mobile"], description: "Independently built the Expo and React Native frontend for academic guidance on Android and iOS.", image: "/images/bookti/ios-01.jpg", tone: "education", status: "Android & iOS" },
+];

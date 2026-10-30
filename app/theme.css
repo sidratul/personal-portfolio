@@ -1,0 +1,94 @@
+/* Shared navy, coral, and soft-white palette across all pages. */
+:root{
+ --forest:#0e1b2e;
+ --forest-raised:#14243b;
+ --forest-deep:#091422;
+ --sage:#abb5c6;
+ --mint:#ef8a94;
+ --ivory:#f4f5f8;
+ --bg:var(--forest);
+ --text:var(--ivory);
+ --muted:var(--sage);
+ --accent:var(--mint);
+ --line:#ffffff25;
+}
+body,body:has(.motion-home){background:var(--forest);background-image:none;color:var(--ivory);--bg:var(--forest);--text:var(--ivory);--muted:var(--sage);--accent:var(--mint);--line:#ffffff25}
+::selection{background:#ef8a94;color:#0e1b2e}
+.header,body:has(.motion-home) .header{background:var(--forest);border-color:var(--line);color:var(--ivory)}
+.wordmark .brand-name,body:has(.motion-home) .wordmark .brand-name{color:var(--ivory)}
+.wordmark .brand-symbol,body:has(.motion-home) .brand-symbol{background:var(--mint);color:var(--forest-deep)}
+.header nav a[aria-current="page"],body:has(.motion-home) .header nav a[aria-current]{color:var(--mint);border-color:var(--mint)}
+.eyebrow,.motion-eyebrow,.project-divider,.work-number,.preview-status{color:var(--sage)}
+h1,h2,h3,h4,.personal-copy h1,.horizontal-copy h2,.career-heading h2{color:var(--ivory)}
+h1 span,.personal-copy h1 span,.career-heading h2 span,.serif-accent,.contact h2 em{color:var(--mint)}
+.personal-fullname{color:#d9dfeb}
+.personal-description,.personal-description strong,.panel-description,.contact-opportunities,.about-text,.muted,.project-description,.skill-card p,.case-grid p,.booml-products p,.bookti-copy>p:not(.eyebrow),.contribution-note,.career-description{color:var(--sage)}
+.intro,.intro strong{color:var(--ivory)}
+.button,.motion-cta{background:var(--mint);color:var(--forest-deep);border-color:var(--mint);border-radius:30px;font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:500;box-shadow:none}
+.button:hover,.motion-cta:hover{background:#f6a4ac;border-color:#f6a4ac;color:var(--forest-deep)}
+.button-secondary{background:transparent;color:var(--ivory);border-color:#ef8a9470}
+.button-secondary:hover{background:var(--mint);color:var(--forest-deep)}
+.text-link,.motion-link{font-family:Arial,Helvetica,sans-serif;font-size:12px;color:var(--ivory);border-color:#ef8a9475}
+.text-link:hover,.motion-link:hover,.contact-email:hover,.social-links a:hover{color:var(--mint)}
+.portrait-experience{background:#20344e;color:var(--ivory)}
+.intro-next{color:var(--sage);border-color:var(--line)}
+.horizontal-work{background:var(--forest-raised);border-color:var(--line)}
+.horizontal-hint,.work-arrows>span,.panel-stack{color:var(--sage)}
+.horizontal-hint span,.panel-status{color:var(--mint)}
+.work-arrows button{color:var(--ivory);border-color:#ef8a9470}
+.work-arrows button:hover:not(:disabled){background:#ef8a9415}
+.horizontal-art{background:linear-gradient(145deg,#314960,#182a43)}
+.panel-bus .horizontal-art{background:linear-gradient(145deg,#454f62,#232c43)}
+.panel-bookti .horizontal-art{background:linear-gradient(145deg,#275b61,#183448)}
+.booml-system,.booml-system h3{color:var(--ivory)}
+.booml-system b{color:var(--mint)}
+.motion-home .career-dot,.career-dot{background:var(--mint);box-shadow:0 0 0 5px var(--forest)}
+.career-company,.experience-company{color:var(--mint)}
+.career-period,.career-description,.project-meta p,.project-company,.education p,.download-card p,.access-note,.booml-subtitle{color:var(--sage)}
+.motion-home a:focus-visible,.motion-home button:focus-visible,a:focus-visible,button:focus-visible,[tabindex]:focus-visible{outline-color:var(--mint)}
+.project-finance{--project-accent:#ef8a94;--project-bg:#192d44}
+.project-transport{--project-accent:#d2c2ac;--project-bg:#262f41}
+.project-education{--project-accent:#9dc7d0;--project-bg:#183448}
+.project-preview{border-color:#ffffff35}
+.preview-visual{background-image:none;background-color:#243c56}
+.preview-copy h3 a,.preview-copy h3 a:hover{color:var(--ivory)}
+.preview-copy>p:not(.preview-status),.preview-status,.preview-copy .project-divider{color:var(--sage)}
+.preview-copy>.text-link{color:var(--mint);border-color:var(--mint)}
+.preview-index{display:none}
+.preview-copy .project-divider{border-color:var(--line)}
+.booml-preview{color:#e0d9ce}
+.booml-preview>p{font-family:Arial,Helvetica,sans-serif;font-style:normal}
+.project-section{background:var(--project-bg);border-color:var(--project-accent)}
+.project-section .project-divider{color:var(--sage);border-color:var(--line)}
+.booml-intro{color:#c5d0df}
+.case-grid h4,.booml-products h4,.contribution-note strong{color:var(--ivory)}
+.booml-products{border-color:var(--line)}
+.booml-products span,.project-tags span{color:var(--sage)}
+.testing-badge{border-color:#c4ae72;color:#dfcb98;background:transparent}
+.bookti-visual{background:#244552;color:var(--ivory)}
+.bookti-mark{color:var(--mint);background:transparent}
+.gallery-platforms{border-color:#ffffff35;background:transparent}
+.gallery-platforms button{color:var(--sage)}
+.gallery-platforms button[aria-pressed="true"]{color:var(--ivory);border-color:var(--mint);background:transparent;box-shadow:none}
+.screenshot-source,.app-screenshot figcaption{color:var(--sage)}
+.wc-gallery{background:#223b55;border-color:var(--line)}
+.wc-gallery-heading .eyebrow,.wc-gallery-heading p:not(.eyebrow),.wc-gallery-hint,.wc-screen figcaption p{color:var(--sage)}
+.wc-screen figcaption span{color:var(--ivory)}
+.gallery-controls button{background:transparent;color:var(--ivory);border-color:#ef8a9470}
+.gallery-controls button:hover{background:#ef8a9420}
+.wc-gallery-track{scrollbar-color:#7088a3 transparent}
+.project-filters{border-color:var(--line)}
+.project-filters button{color:var(--sage)}
+.project-filters button[aria-pressed="true"]{color:var(--ivory);border-color:var(--mint)}
+.page-intro h1 span{font-family:Arial,Helvetica,sans-serif;font-style:normal}
+.page-intro,.about,.education,.experience,.skill-card,.download-card{border-color:var(--line)}
+.skill-card,.download-card{background:transparent}
+.contact,body:has(.motion-home) .contact{background:transparent;color:var(--ivory);border-color:var(--line)}
+.contact h2 em{font-family:Arial,Helvetica,sans-serif;font-style:normal}
+.social-links,.footer,body:has(.motion-home) .footer{color:var(--sage);border-color:var(--line)}
+.social-icon-linkedin,body:has(.motion-home) .social-icon-linkedin{color:#ef8a94}
+.contact-email{border-color:#ef8a9470}
+.skip-link{background:var(--mint);color:var(--forest-deep)}
+
+/* Coral actions against navy surfaces. */
+.button,.motion-cta{background:#ed6975;border-color:#ed6975;color:#fff}.button:hover,.motion-cta:hover{background:#d85664;border-color:#d85664;color:#fff}.button-secondary{background:transparent;color:#f4f5f8;border-color:#8f9caf}.button-secondary:hover{background:#ed6975;border-color:#ed6975;color:#fff}.wordmark .brand-symbol,body:has(.motion-home) .brand-symbol{background:#ef6c76;color:#fff}.personal-copy h1 span,.career-heading h2 span,h1 span,.serif-accent,.contact h2 em{color:#f18a92}.panel-status{color:#f4abb0}.social-icon-linkedin,body:has(.motion-home) .social-icon-linkedin{color:#88b8f5}
