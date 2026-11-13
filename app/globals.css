@@ -17,3 +17,26 @@
 
 .case-intro{padding:0 0 35px}.case-intro .back-link{margin-bottom:35px}.case-intro .eyebrow{margin-bottom:15px}.case-intro h1{font-size:40px;line-height:1.12;max-width:850px;margin-bottom:20px}.case-intro>p:not(.eyebrow){font-size:14px;line-height:1.85;max-width:600px;color:var(--muted)}.detail-footer{padding-top:30px;align-items:center;justify-content:space-between}.next-case{display:grid;grid-template-columns:1fr auto;gap:8px 25px;border-bottom:1px solid var(--line-strong);padding:15px 0;min-width:180px;max-width:100%}.next-case>span:first-child{font:8px/1.7 monospace;color:var(--muted);letter-spacing:1.5px;grid-column:1/-1}.next-case strong{font-size:16px;font-weight:400;line-height:1.6}.next-case>span:last-child{font-size:22px;color:var(--accent)}.next-case:hover strong{color:var(--accent)}
 @media(min-width:701px){.case-intro{padding-bottom:45px}.case-intro h1{font-size:64px;letter-spacing:-3px}.case-intro>p:not(.eyebrow){font-size:16px}.next-case{min-width:290px}.next-case strong{font-size:21px}}
+
+/* On phones the portrait introduces the person before the biography. */
+@media(max-width:700px){
+ .personal-intro{padding-top:30px;gap:30px}
+ .personal-portrait{order:-1;max-width:100%;padding-right:12px}
+ .personal-portrait>img{height:clamp(280px,48svh,390px);object-position:center 25%}
+ .portrait-caption-line{padding-top:18px}
+ .personal-copy h1{font-size:clamp(42px,10vw,62px)}
+ .horizontal-work[data-scroll-driven] .work-toolbar{padding:15px 20px 10px}
+ .horizontal-work[data-scroll-driven] .work-section-title{font-size:21px}
+ .horizontal-work[data-scroll-driven] .horizontal-hint{font-size:9px}
+ .horizontal-work[data-scroll-driven] .work-bottom{padding:7px 20px 12px}
+ .horizontal-work[data-scroll-driven] .horizontal-copy{padding:10px 20px 14px}
+ .horizontal-work[data-scroll-driven] .project-sequence{display:none}
+ .horizontal-work[data-scroll-driven] .horizontal-copy>.motion-eyebrow{font-size:7px;margin-bottom:8px}
+ .horizontal-work[data-scroll-driven] .horizontal-copy h2{font-size:28px;margin-bottom:10px}
+ .horizontal-work[data-scroll-driven] .panel-description{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden;font-size:12px;line-height:1.7}
+ .horizontal-work[data-scroll-driven] .panel-stack{font-size:8px;margin-top:8px}
+ .horizontal-work[data-scroll-driven] .panel-status{font-size:8px;margin-top:5px}
+ .horizontal-work[data-scroll-driven] .horizontal-copy>.motion-cta{margin-top:10px;min-height:44px;padding:10px 17px}
+ .horizontal-work[data-scroll-driven] .horizontal-phones{min-height:0;padding-top:15px}
+ .horizontal-work[data-scroll-driven] .horizontal-phones img{height:100%;width:auto;max-width:44%;object-fit:contain;object-position:top}
+}

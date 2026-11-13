@@ -55,3 +55,30 @@
 .horizontal-work:not([data-scroll-driven]) .horizontal-hint>span{display:none}
 .horizontal-work:not([data-scroll-driven]) .horizontal-hint:after{content:'Swipe or use the arrows to explore';font-size:10px}
 @media(min-width:701px){.horizontal-work:not([data-scroll-driven]) .horizontal-panel{grid-template-rows:1fr}.horizontal-work:not([data-scroll-driven]) .horizontal-art{align-self:stretch}.horizontal-work:not([data-scroll-driven]) .bumel-admin-gallery.is-compact .bumel-admin-screen img{max-height:320px}.horizontal-work:not([data-scroll-driven]) .bumel-crew-gallery.is-compact .crew-gallery-image img{height:300px}}
+
+/* Scroll-linked phone layouts reserve a flexible row for the full gallery. */
+@media(max-width:700px){
+ .horizontal-work[data-scroll-driven] .horizontal-panel{grid-template-rows:auto minmax(0,1fr)}
+ .horizontal-work[data-scroll-driven] .horizontal-art{padding:10px 16px;margin:0 0 2px;min-height:0}
+ .horizontal-work[data-scroll-driven] .bumel-preview-gallery{gap:7px}
+ .horizontal-work[data-scroll-driven] .bumel-app-switch{gap:22px}
+ .horizontal-work[data-scroll-driven] .bumel-app-switch button{min-height:40px;font-size:11px}
+ .horizontal-work[data-scroll-driven] .is-compact .bumel-gallery-label{display:none}
+ .horizontal-work[data-scroll-driven] .is-compact .bumel-role-tabs{gap:16px}
+ .horizontal-work[data-scroll-driven] .is-compact .bumel-role-tabs button{min-height:38px;font-size:10px}
+ .horizontal-work[data-scroll-driven] .bumel-admin-gallery.is-compact,
+ .horizontal-work[data-scroll-driven] .bumel-crew-gallery.is-compact{gap:7px}
+ .horizontal-work[data-scroll-driven] .is-compact .bumel-admin-screen{gap:5px}
+ .horizontal-work[data-scroll-driven] .is-compact .bumel-admin-screen figcaption h4{font-size:9px;line-height:1.5}
+ .horizontal-work[data-scroll-driven] .is-compact .bumel-gallery-bottom>span{font-size:8px}
+ .horizontal-work[data-scroll-driven] .is-compact .crew-gallery-description h4{font-size:12px}
+ .horizontal-work[data-scroll-driven] .is-compact .crew-gallery-dots{display:none}
+ .horizontal-work[data-scroll-driven] .panel-bookti .horizontal-art>.bookti-gallery-container{gap:6px}
+ .horizontal-work[data-scroll-driven] .panel-bookti .gallery-platforms button{min-height:38px}
+ .horizontal-work[data-scroll-driven] .panel-bookti .bookti-carousel-toolbar{gap:10px}
+ .horizontal-work[data-scroll-driven] .panel-bookti .bookti-carousel-toolbar>span{font-size:9px}
+ .horizontal-work[data-scroll-driven] .panel-bookti .bookti-carousel-toolbar .gallery-controls button{width:40px;min-width:40px;height:40px;min-height:40px}
+ .horizontal-work[data-scroll-driven] .panel-bookti .app-screenshot figcaption{font-size:7px}
+ .horizontal-work[data-scroll-driven] .panel-bookti .bookti-carousel-hint{display:none}
+}
+.horizontal-work[data-scroll-driven] .horizontal-track{height:100%}

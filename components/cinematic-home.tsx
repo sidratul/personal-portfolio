@@ -24,7 +24,7 @@ export default function CinematicHome() {
   const wrapper=section.current, rail=track.current, view=viewport.current;
   if(!wrapper||!rail||!view)return;
   const media=gsap.matchMedia();
-  media.add('(prefers-reduced-motion: no-preference) and (min-width: 901px) and (min-height: 760px)',()=>{
+  media.add('(prefers-reduced-motion: no-preference) and (min-height: 600px)',()=>{
    wrapper.dataset.scrollDriven='true';
    let last=-1;
    const animation=gsap.to(rail,{x:()=>-(rail.scrollWidth-view.clientWidth),ease:'none',scrollTrigger:{trigger:wrapper,start:'top top',end:'bottom bottom',scrub:.65,invalidateOnRefresh:true,onRefresh:self=>{range.current={start:self.start,end:self.end};}},onUpdate:function(this: gsap.core.Tween){const next=Math.round(this.progress()*(projects.length-1));if(next!==last){last=next;setActive(next);}}});
