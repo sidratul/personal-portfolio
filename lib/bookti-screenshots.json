@@ -1,0 +1,101 @@
+{
+  "Android": [
+    {
+      "url": "/images/bookti/android-01.png",
+      "width": 1080,
+      "height": 2220
+    },
+    {
+      "url": "/images/bookti/android-02.png",
+      "width": 1080,
+      "height": 2220
+    },
+    {
+      "url": "/images/bookti/android-03.png",
+      "width": 1080,
+      "height": 2220
+    },
+    {
+      "url": "/images/bookti/android-04.png",
+      "width": 1080,
+      "height": 2220
+    },
+    {
+      "url": "/images/bookti/android-05.png",
+      "width": 1080,
+      "height": 2220
+    },
+    {
+      "url": "/images/bookti/android-06.png",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "url": "/images/bookti/android-07.png",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "url": "/images/bookti/android-08.png",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "url": "/images/bookti/android-09.png",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "url": "/images/bookti/android-10.png",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "url": "/images/bookti/android-11.png",
+      "width": 1080,
+      "height": 1920
+    }
+  ],
+  "iOS": [
+    {
+      "url": "/images/bookti/ios-01.jpg",
+      "width": 1240,
+      "height": 2688
+    },
+    {
+      "url": "/images/bookti/ios-02.jpg",
+      "width": 1240,
+      "height": 2688
+    },
+    {
+      "url": "/images/bookti/ios-03.jpg",
+      "width": 1240,
+      "height": 2688
+    },
+    {
+      "url": "/images/bookti/ios-04.jpg",
+      "width": 1240,
+      "height": 2688
+    },
+    {
+      "url": "/images/bookti/ios-05.jpg",
+      "width": 1240,
+      "height": 2688
+    },
+    {
+      "url": "/images/bookti/ios-06.jpg",
+      "width": 1240,
+      "height": 2688
+    },
+    {
+      "url": "/images/bookti/ios-07.jpg",
+      "width": 1240,
+      "height": 2688
+    },
+    {
+      "url": "/images/bookti/ios-08.jpg",
+      "width": 1240,
+      "height": 2688
+    }
+  ]
+}

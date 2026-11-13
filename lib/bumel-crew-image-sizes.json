@@ -1,0 +1,26 @@
+{
+  "crew-ticket-sale": {
+    "width": 610,
+    "height": 1356
+  },
+  "crew-manifest": {
+    "width": 610,
+    "height": 1356
+  },
+  "crew-trip-details": {
+    "width": 610,
+    "height": 1356
+  },
+  "crew-trip-report": {
+    "width": 610,
+    "height": 1356
+  },
+  "crew-sales-report": {
+    "width": 610,
+    "height": 1356
+  },
+  "crew-settings": {
+    "width": 610,
+    "height": 1356
+  }
+}
