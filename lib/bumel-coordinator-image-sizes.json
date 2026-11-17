@@ -1,0 +1,22 @@
+{
+  "coordinator-dashboard": {
+    "width": 610,
+    "height": 1356
+  },
+  "coordinator-create-trip": {
+    "width": 610,
+    "height": 1356
+  },
+  "coordinator-trip-details": {
+    "width": 610,
+    "height": 1356
+  },
+  "coordinator-crew-fees": {
+    "width": 610,
+    "height": 1356
+  },
+  "coordinator-timesheet": {
+    "width": 610,
+    "height": 1356
+  }
+}

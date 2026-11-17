@@ -82,3 +82,7 @@
  .horizontal-work[data-scroll-driven] .panel-bookti .bookti-carousel-hint{display:none}
 }
 .horizontal-work[data-scroll-driven] .horizontal-track{height:100%}
+
+/* Three application roles stay available without wrapping the preview header. */
+.bumel-app-switch{gap:14px;flex-wrap:wrap}.bumel-app-switch button{white-space:nowrap;font-size:11px}
+@media(max-width:700px){.horizontal-work[data-scroll-driven] .bumel-app-switch{gap:14px}.horizontal-work[data-scroll-driven] .bumel-app-switch button{font-size:10px}}
